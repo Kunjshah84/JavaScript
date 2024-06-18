@@ -9,5 +9,19 @@ console.log(null<=0)
 
 //==== it is going to check the data type also brfore the conversion:
 
+//This is how we can assign the symbol to the var
 
+let id=Symbol('123')
+let anotherid=Symbol('123')
+console.log(id)
+console.log(anotherid)
+console.log(id == anotherid)
 
+//To put n at the end of number the compiler convert the number into BIGINT
+
+//We can store function into var
+
+const myFunction= function(){
+    console.log("Hello kunj")
+}
+console.log(typeof myFunction)
