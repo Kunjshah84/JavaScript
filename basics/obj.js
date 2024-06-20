@@ -83,4 +83,26 @@ const obj5={...obj1,...obj2}
 console.log(obj5)
 
 //There are multiple methods for the object:
+//Object destructring:
 
+const course={
+    name : "JS",
+    fees: "500",
+    feculty: "kunj"
+}
+
+const {feculty : sir}= course
+console.log(sir);
+//That how we can able to distctere the object:
+
+//API basic intro:this is the form that we get the apt
+// {
+//     "name" : "knuj",
+//     "course" : "JS",
+//     "price" : "3000"
+// }//This is jeson--->This is not a perferct object this is the kind of jeson structure:
+//In this the key valus is in the form fo string:
+
+
+//All of the apis are in the format of jeson:
+//What is jeson : like it is the simple JS object notation:
