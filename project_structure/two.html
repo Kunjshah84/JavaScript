@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM with chai our code and 2nd</title>
+</head>
+<body style=" background-color: #212121 ; color: white;">
+    <div class="parent">
+        <div class="day">mon</div>
+        <div class="day">tus</div>
+        <div class="day">wed</div>
+        <div class="day">thu</div>
+    </div>
+</body>
+<script>
+    const obj = document.querySelector('.parent')
+    console.log(obj);
+    console.log(obj.children);
+    console.log(obj.children[1].innertext)
+    // console.log(obj.children[1]);
+    for (let i = 0; i < obj.children.length; i++) {
+        console.log(obj.children[i].innerHTML);
+        obj.children[i].style.color="orange";
+    }
+    console.log(obj.firstElementChild);
+    console.log(obj.lastElementChild);
+
+
+    const day1=document.querySelector('.day')
+    console.log(day1);
+    console.log(day1.parentElement);
+    console.log(day1.nextElementSibling);
+
+    console.log("Nodes: ",obj.childNodes);
+    //This shows the totalvalues that is we right the next line and all other thig are going to consider as the node in the DOM model:
+</script>
+</html>

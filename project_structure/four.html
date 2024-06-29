@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forth of the DOM</title>
+</head>
+<body style=" background-color: #212121 ; color: white;">
+    <ul class="language">
+        <li class="name">Javascript</li>
+    </ul>
+</body>
+<script>
+    function add_language(lang_name){
+        const li=document.createElement('li')
+        li.innerHTML=`${lang_name}`
+        document.querySelector('.language').appendChild(li)
+    }
+    add_language("python")
+    add_language("c++")
+
+    function opti_language(lan){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(`${lan}`))
+        document.querySelector('.language').appendChild(li)
+    }
+    opti_language('ruby')
+
+    //Editing the docunment of the code:
+
+    const second_lan=document.querySelector("li:nth-child(2)")
+    // second_lan.innerHTML="mojo"
+    //Not optimied:
+    const new_li=document.createElement('li')
+    new_li.textContent="not python but this is c lang"
+    second_lan.replaceWith(new_li)
+
+    //Now we have to erplace the fist language with JS
+
+    const optinal=document.querySelector('li')
+    optinal.outerHTML="<li>Java Script</li>"
+
+    //Remove the element of the last language:
+    const last_li=document.querySelector("li:last-child")
+    last_li.remove()
+
+</script>
+</html>
