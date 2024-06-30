@@ -1,0 +1,31 @@
+
+.maindivision{
+    background-color: rgb(239, 10, 189);
+    border-style: solid;
+    margin: 200px  auto 200px;
+    text-align: center;
+    width: 50%;
+}
+.Buttons{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+span{
+    display: block;
+}
+
+#green{
+    background-color: rgb(11, 240, 22);
+}
+#brown{
+    background-color: brown;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#gray{
+    background-color: gray;
+}
