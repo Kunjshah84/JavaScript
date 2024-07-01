@@ -1,6 +1,21 @@
 .maindiv{
     text-align: center;
     border: solid white 3px;
-    margin: 200px auto 200px;
+    margin: 100px auto 200px;
     width: 50%;
+    padding: 5%;
+}
+
+.button{
+    height: 50px;
+    width: 100px;
+}
+
+#Out_put{
+    height: 40px;
+    width: 300px;
+}
+
+.result{
+    text-align: center;
 }

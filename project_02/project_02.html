@@ -8,12 +8,23 @@
 </head>
 <body style="background-color: #212121; color:white;">
     <div class="maindiv">
-        <h1>BMI CALCULATER</h1>
-        <label for="Hight">Enter hight in cm:</label>
-        <input type="text" id="Hight">
-        <br><br><br>
-        <label for="Weight">Enter weight in Kg:</label>
-        <input type="text" id="Weight">
+        <form>
+            <h1>BMI CALCULATER</h1>
+            <label for="Hight">Enter hight in cm:</label>
+            <input type="text" id="Hight">
+            <br><br><br>
+            <label for="Weight">Enter weight in Kg:</label>
+            <input type="text" id="Weight">
+            <br><br>
+            <button class="button">Calculate</button>
+            <br><br>
+            <div id="result"></div>
+            <h3>BMI Weight Guide</h3>
+            <p>Under Weight = Less than 18.6</p>
+            <p>Normal Range = 18.6 and 24.9</p>
+            <p>Overweight = Greater than 24.9</p>
+        </form>
     </div>
 </body>
+<script src="project_02.js"></script>
 </html>
