@@ -7,7 +7,39 @@
     <link rel="stylesheet" href="project_04.css">
 </head>
 <body style="background-color: #212121; color:white;">
-    
+    <div class="maindiv">
+        <h1>Number guessing game</h1>
+        <h2>Try and guess a random number between 1 and 100.</h2>
+        <h2>You have 10 attempts to guess the right number.</h2>
+        <fieldset>
+            <legend>
+                <h2>GAME BOX</h2>
+            </legend>
+            <form>
+                <label for="guss">GUESS THE NUMBER</label>
+                <BR></BR>
+                <input type="text" id="guss" class="input"></input>
+                <br><br>
+                <button class="submit_button">Submit guess</button>
+            </form>
+        </fieldset>
+        <div class="result">
+            <h2>
+                current Guess:
+                <span class="Current_guess"></span>
+            </h2>
+            <h2>Previous Guess:
+                <span class="previous_guess" style="color: rgb(250, 3, 3);"></span>
+            </h2>
+            <h2>Guess remaning:
+                <span class="remaning_guess" style="color: rgb(85, 47, 255);"></span>
+            </h2>
+            <h2 class="LoworHigh"></h2>
+            <h2>Current stage:
+                <span class="states"></span>
+            </h2>
+        </div>
+    </div>
 </body>
 <style src="project_04.js"></style>
 </html>

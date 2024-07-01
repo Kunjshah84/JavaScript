@@ -1,0 +1,33 @@
+.maindiv{
+    text-align: center;
+    border: solid white 5px ;
+    margin: 100px auto 100px;
+    width: 50%;
+    background-color: rgb(80, 77, 182);
+    color: black;
+}
+
+fieldset{
+    border: solid black 5px;
+}
+
+.input{
+    height: 50px;
+    background-color: green;
+}
+
+.submit_button{
+    background-color: red;
+    height: 50px;
+    border-radius: 20px;
+    border: red;
+    width: 200px;
+}
+
+.result{
+    text-align: center;
+    background-color: rgb(214, 196, 196);   
+    width: 50%;
+    color: black;
+    margin-left: 25%;
+}
